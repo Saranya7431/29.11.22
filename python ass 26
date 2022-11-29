@@ -1,0 +1,9 @@
+sno=int(input('Enter student number'))
+sname=input('Enter student name' )
+s1=int(input('Enter english marks'))
+s2=int(input('Enter maths marks'))
+s3=int(input('Enter electronics marks'))
+if s1>=35 and s2>=35 and s3>=35:
+    print('Pass')
+else:
+    print('Fail')
